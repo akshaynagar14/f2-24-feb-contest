@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.heading{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    font-size: 28px;
+    padding: 22px;
+}
+.createRow{
+ margin: 29px 78px;
+ background-color: black;
+ color: wheat;
+ padding: 4px 9px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 2px solid black;
+    border: 1px solid black;
+}
+th{
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    padding: 10px 15px;
+}
+tbody tr td{
+    border-right: 1px solid black;
+    text-align: center;
+    
+    height: 50px;
+}
+.adjust{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
